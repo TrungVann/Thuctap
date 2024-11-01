@@ -3,9 +3,13 @@ export const signup = async (req, res) => {
 }
 
 export const login = async (req, res) => {
-    res.send("Login route called")
+    res.send("Login giao dien")
 }
 
 export const logout = async (req, res) => {
     res.send("Logout route called")
+}
+
+export const trangchu = async (req, res) => {
+    res.send("Trang chu")
 }
